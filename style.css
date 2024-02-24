@@ -1,0 +1,59 @@
+body {
+  background-color: #181a1a;
+  font-family: "Sahel";
+}
+
+h2{
+  color: rgb(196, 62, 53);
+ 
+}
+
+.main-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0px;
+  padding: 10px;
+
+  border: 2px solid #9e9e9e;
+  border-radius: 10px;
+}
+
+.txtbox {
+  min-height: 100px;
+  width: 400px;
+  max-height: 300px;
+
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+  resize: vertical;
+
+  background-color: rgb(60, 66, 68);
+  color: white;
+
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 14px;
+  font-family: "Sahel";
+
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.btn{
+  font-family: "Sahel";
+
+  color: #babbb6;
+  background-color: #871007;
+  border: 0;
+
+  border-radius: 5px;
+
+  margin-bottom: 15px;
+}
+
+.btn:hover{
+  opacity: .9;
+}

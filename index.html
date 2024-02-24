@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Parsi Saz</title>
+  </head>
+  <body>
+    <div class="main-con">
+      <!--  header  -->
+      <h2>پارسی نویس</h2>
+
+      <!--  info  -->
+      <textarea type="text" name="info" id="info-txt" class="txtbox"></textarea>
+
+      <!--  data  -->
+      <textarea type="text" name="data" id="data-txt" class="txtbox" readonly></textarea>
+
+      <!-- Buttons -->
+      <div>
+        <!-- clear -->
+        <input type="submit" d="clear" class="btn" value="پاک کردن" onclick="remove()"/>
+        <!-- Copy -->
+        <input type="submit" id="copy" class="btn" value="کپی کردن در حافظه" onclick="copy(event)"/>
+        <!-- Convert -->
+        <input type="submit" id="convert" class="btn" value="فارسی سازی" onclick="convert()"/>
+      </div>
+
+      <hr width="300">
+      <p style="color: white; direction: rtl; font-size: small;">ساخته شده با ❤ توسط <a href="https://github.com/nuclearHesame">nuclearHesam</a></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
